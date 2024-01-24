@@ -14,3 +14,11 @@
  *  Add a function to clear the cards from the screen.
  *  Add functions to change which buttons are shown on screen depending on state.
  */
+
+const tarotCards = [
+    {
+        cardId: 0,
+        keywords: [],
+        imagePath: '',
+    },
+];
