@@ -12,34 +12,34 @@
 // TODO: should be in a separate file
 const tarotCards = [
     {
-        title: '1',
+        title: 'The Fool',
         uprightKeywords: [],
         reverseKeywords: [],
-        imagePath: '',
+        imagePath: 'the-fool',
     },
     {
-        title: '2',
+        title: 'The Magician',
         uprightKeywords: [],
         reverseKeywords: [],
-        imagePath: '',
+        imagePath: 'the-magician',
     },
     {
-        title: '3',
+        title: 'The High Priestess',
         uprightKeywords: [],
         reverseKeywords: [],
-        imagePath: '',
+        imagePath: 'the-high-priestess',
     },
     {
-        title: '4',
+        title: 'The Empress',
         uprightKeywords: [],
         reverseKeywords: [],
-        imagePath: '',
+        imagePath: 'the-empress',
     },
     {
-        title: '5',
+        title: 'The Emperor',
         uprightKeywords: [],
         reverseKeywords: [],
-        imagePath: '',
+        imagePath: 'the-emperor',
     },
 ];
 
