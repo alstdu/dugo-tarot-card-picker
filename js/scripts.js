@@ -53,9 +53,15 @@ const drawButton = document.querySelector( '#draw-a-card' );
 drawButton.addEventListener( 'click', () => {
     const card = chooseACard();
     populateTitle( card.title );
+    populatePath( card.imagePath );
 } );
 
 const populateTitle = ( title ) => {
     const titleElm = document.querySelector( '#card-title' );
     titleElm.innerHTML = title;
+};
+
+const populatePath = ( path ) => {
+    const cardImageElm = document.querySelector( '#card' );
+    cardImageElm.src = '../assets/cards/' + path + '.png';
 };
