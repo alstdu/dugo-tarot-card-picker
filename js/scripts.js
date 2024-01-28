@@ -50,6 +50,12 @@ const chooseACard = () => {
 
 const drawButton = document.querySelector( '#draw-a-card' );
 
-drawButton.addEventListener( 'click', ()=> {
-    console.log( 'hello' );
+drawButton.addEventListener( 'click', () => {
+    const card = chooseACard();
+    populateTitle( card.title );
 } );
+
+const populateTitle = ( title ) => {
+    const titleElm = document.querySelector( '#card-title' );
+    titleElm.innerHTML = title;
+};
