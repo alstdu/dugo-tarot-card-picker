@@ -48,13 +48,19 @@ const chooseACard = () => {
     return tarotCards[randomIndex];
 };
 
+const decideIfReversed = () => {
+    return Math.random() >= 0.5;
+};
+
 const drawButton = document.querySelector( '#draw-a-card' );
 
 drawButton.addEventListener( 'click', () => {
     const card = chooseACard();
+    const isReversed = decideIfReversed();
+    const keywords = isReversed ? card.reverseKeywords : card.uprightKeywords;
     populateTitle( card.title );
     populatePath( card.imagePath );
-    populateKeywords( card.uprightKeywords.join( ' ' ) );
+    populateKeywords( keywords.join( ' ' ) );
 } );
 
 const populateTitle = ( title ) => {
