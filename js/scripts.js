@@ -13,31 +13,31 @@
 const tarotCards = [
     {
         title: 'The Fool',
-        uprightKeywords: [],
+        uprightKeywords: ['beginnings', 'innocence', 'idealism', 'adventure'],
         reverseKeywords: [],
         imagePath: 'the-fool',
     },
     {
         title: 'The Magician',
-        uprightKeywords: [],
+        uprightKeywords: ['desire', 'willpower', 'ability', 'concentration'],
         reverseKeywords: [],
         imagePath: 'the-magician',
     },
     {
         title: 'The High Priestess',
-        uprightKeywords: [],
+        uprightKeywords: ['intuition', 'higher power', 'mystery', 'unconscious'],
         reverseKeywords: [],
         imagePath: 'the-high-priestess',
     },
     {
         title: 'The Empress',
-        uprightKeywords: [],
+        uprightKeywords: ['beauty', 'nurturing', 'femininity', 'nature', 'abundance'],
         reverseKeywords: [],
         imagePath: 'the-empress',
     },
     {
         title: 'The Emperor',
-        uprightKeywords: [],
+        uprightKeywords: ['authority', 'control', 'protection', 'structure'],
         reverseKeywords: [],
         imagePath: 'the-emperor',
     },
@@ -54,6 +54,7 @@ drawButton.addEventListener( 'click', () => {
     const card = chooseACard();
     populateTitle( card.title );
     populatePath( card.imagePath );
+    populateKeywords( card.uprightKeywords.join( ' ' ) );
 } );
 
 const populateTitle = ( title ) => {
@@ -64,4 +65,9 @@ const populateTitle = ( title ) => {
 const populatePath = ( path ) => {
     const cardImageElm = document.querySelector( '#card' );
     cardImageElm.src = '../assets/cards/' + path + '.png';
+};
+
+const populateKeywords = ( keywords ) => {
+    const keywordElm = document.querySelector( '#keyword-container' );
+    keywordElm.innerHTML = keywords;
 };
