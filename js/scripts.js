@@ -57,8 +57,9 @@ const drawButton = document.querySelector( '#draw-a-card' );
 drawButton.addEventListener( 'click', () => {
     const card = chooseACard();
     const isReversed = decideIfReversed();
+    const title = isReversed ? card.title + ' Reversed' : card.title;
     const keywords = isReversed ? card.reverseKeywords : card.uprightKeywords;
-    populateTitle( card.title );
+    populateTitle( title );
     populatePath( card.imagePath );
     populateKeywords( keywords.join( ' ' ) );
 } );
