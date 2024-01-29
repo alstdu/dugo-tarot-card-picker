@@ -53,6 +53,9 @@ const decideIfReversed = () => {
 };
 
 const drawButton = document.querySelector( '#draw-a-card' );
+const titleElm = document.querySelector( '#card-title' );
+const cardImageElm = document.querySelector( '#card' );
+const keywordElm = document.querySelector( '#keyword-container' );
 
 drawButton.addEventListener( 'click', () => {
     const card = chooseACard();
@@ -62,19 +65,22 @@ drawButton.addEventListener( 'click', () => {
     populateTitle( title );
     populatePath( card.imagePath );
     populateKeywords( keywords.join( ' ' ) );
+    setImageIsReversed( isReversed );
 } );
 
 const populateTitle = ( title ) => {
-    const titleElm = document.querySelector( '#card-title' );
     titleElm.innerHTML = title;
 };
 
 const populatePath = ( path ) => {
-    const cardImageElm = document.querySelector( '#card' );
     cardImageElm.src = '../assets/cards/' + path + '.png';
 };
 
 const populateKeywords = ( keywords ) => {
-    const keywordElm = document.querySelector( '#keyword-container' );
     keywordElm.innerHTML = keywords;
+};
+
+const setImageIsReversed = ( isReversed ) => {
+    const transform = isReversed ? 'rotate(180deg)' : 'rotate(0deg)';
+    cardImageElm.style.transform = transform;
 };
