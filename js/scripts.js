@@ -185,7 +185,8 @@ const tarotCards = [
         imagePath: 'five-of-wands',
     },
     {
-        title: 'six of Wands',
+        title: 'Six of Wands',
+        uprightKeywords: ['victory', 'success', 'triumph'],
         uprightKeywords: ['victory', 'success', 'triumph'],
         reverseKeywords: ['excess pride', 'lack of recognition', 'punishment'],
         imagePath: 'six-of-wands',
