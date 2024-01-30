@@ -238,6 +238,72 @@ const tarotCards = [
         reverseKeywords: ['gossip', 'scandal', 'excess', 'isolation'],
         imagePath: 'three-of-cups',
     },
+    {
+        title: 'Four of Cups',
+        uprightKeywords: [''],
+        reverseKeywords: [''],
+        imagePath: 'four-of-cups',
+    },
+    {
+        title: 'Five of Cups',
+        uprightKeywords: [''],
+        reverseKeywords: [''],
+        imagePath: 'five-of-cups',
+    },
+    {
+        title: 'Six of Cups',
+        uprightKeywords: [''],
+        reverseKeywords: [''],
+        imagePath: 'six-of-cups',
+    },
+    {
+        title: 'Seven of Cups',
+        uprightKeywords: [''],
+        reverseKeywords: [''],
+        imagePath: 'seven-of-cups',
+    },
+    {
+        title: 'Eight of Cups',
+        uprightKeywords: [''],
+        reverseKeywords: [''],
+        imagePath: 'eight-of-cups',
+    },
+    {
+        title: 'Nine of Cups',
+        uprightKeywords: [''],
+        reverseKeywords: [''],
+        imagePath: 'nine-of-cups',
+    },
+    {
+        title: 'Ten of Cups',
+        uprightKeywords: [''],
+        reverseKeywords: [''],
+        imagePath: 'ten-of-cups',
+    },
+    {
+        title: 'Page of Cups',
+        uprightKeywords: [''],
+        reverseKeywords: [''],
+        imagePath: 'page-of-cups',
+    },
+    {
+        title: 'Knight of Cups',
+        uprightKeywords: [''],
+        reverseKeywords: [''],
+        imagePath: 'knight-of-cups',
+    },
+    {
+        title: 'King of Cups',
+        uprightKeywords: [''],
+        reverseKeywords: [''],
+        imagePath: 'king-of-cups',
+    },
+    {
+        title: 'Queen of Cups',
+        uprightKeywords: [''],
+        reverseKeywords: [''],
+        imagePath: 'queen-of-cups',
+    },
 ];
 
 const chooseACard = () => {
