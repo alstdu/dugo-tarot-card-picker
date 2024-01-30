@@ -187,9 +187,38 @@ const tarotCards = [
     {
         title: 'Six of Wands',
         uprightKeywords: ['victory', 'success', 'triumph'],
-        uprightKeywords: ['victory', 'success', 'triumph'],
         reverseKeywords: ['excess pride', 'lack of recognition', 'punishment'],
         imagePath: 'six-of-wands',
+    },
+    {
+        title: 'Seven of Wands',
+        uprightKeywords: ['perseverance', 'defensive', 'maintaining control'],
+        reverseKeywords: ['give up', 'destroyed confidence', 'overwhelmed'],
+        imagePath: 'seven-of-wands',
+    },
+    {
+        title: 'Eight of Wands',
+        uprightKeywords: ['rapid action', 'movement', 'quick decisions'],
+        reverseKeywords: ['panic', 'waiting', 'delays'],
+        imagePath: 'eight-of-wands',
+    },
+    {
+        title: 'Nine of Wands',
+        uprightKeywords: ['resilience', 'perseverance', 'close to success', 'fatigue'],
+        reverseKeywords: ['rigidity', 'defensiveness', 'refusing compromise'],
+        imagePath: 'nine-of-wands',
+    },
+    {
+        title: 'Ten of Wands',
+        uprightKeywords: ['duty', 'stress', 'obligation', 'burning out'],
+        reverseKeywords: ['collapse', 'breakdown', 'overworked'],
+        imagePath: 'ten-of-wands',
+    },
+    {
+        title: 'Ace of Wands',
+        uprightKeywords: ['creation', 'willpower', 'inspiration', 'desire'],
+        reverseKeywords: ['lack of energy', 'lack of passion', 'boredom'],
+        imagePath: 'ace-of-wands',
     },
 ];
 
