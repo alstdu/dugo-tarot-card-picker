@@ -1,5 +1,5 @@
 /**
- *  Add a function to clear the cards from the screen.
+ *  Need To Add Alt text for the images eventually for accessibility
  */
 
 // TODO: should be in a separate file
@@ -135,6 +135,36 @@ const tarotCards = [
         uprightKeywords: ['fulfillment', 'harmony', 'completion', 'sense of belonging'],
         reverseKeywords: ['lack of achievement', 'feeling incomplete', 'emptiness'],
         imagePath: 'the-world',
+    },
+    {
+        title: 'Knight of Wands',
+        uprightKeywords: ['action', 'adventure', 'fearlessness'],
+        reverseKeywords: ['anger', 'impulsiveness', 'recklessness'],
+        imagePath: 'knight-of-wands',
+    },
+    {
+        title: 'King of Wands',
+        uprightKeywords: ['big picture', 'leader', 'overcoming challenges'],
+        reverseKeywords: ['impulsive', 'overbearing', 'unrealistic expectations'],
+        imagePath: 'king-of-wands',
+    },
+    {
+        title: 'Queen of Wands',
+        uprightKeywords: ['courage', 'determination', 'joy'],
+        reverseKeywords: ['selfishness', 'jealousy', 'insecurities'],
+        imagePath: 'queen-of-wands',
+    },
+    {
+        title: 'Page of Wands',
+        uprightKeywords: ['exploration', 'excitement', 'freedom'],
+        reverseKeywords: ['lack of direction', 'procrastination', 'creating conflic'],
+        imagePath: 'page-of-wands',
+    },
+    {
+        title: 'Two of Wands',
+        uprightKeywords: ['planning', 'making decisions', 'leaving home'],
+        reverseKeywords: ['fear of change', 'playing safe', 'bad planning'],
+        imagePath: 'page-of-wands',
     },
 ];
 
