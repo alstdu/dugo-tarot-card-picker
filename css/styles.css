@@ -6,6 +6,7 @@ body {
     margin: 0;
     width: 100vw;
     height: 100vh;
+    background-color: rgb(92, 61, 108);
 }
 
 #card-container {
@@ -14,6 +15,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 22em;
+    color: white;
 }
 
 #card-title {
