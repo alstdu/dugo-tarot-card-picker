@@ -312,8 +312,8 @@ const tarotCards = [
     },
     {
         title: 'Two of Swords',
-        uprightKeywords: ['compassion', 'warmth', 'kindness'],
-        reverseKeywords: ['giving too much', 'overly-sensitive', 'needy'],
+        uprightKeywords: ['difficult choices', 'indecision', 'stalemate'],
+        reverseKeywords: ['lesser of two evils', 'no right choice', 'confusion'],
         imagePath: 'queen-of-swords',
     },
     {
