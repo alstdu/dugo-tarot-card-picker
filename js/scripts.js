@@ -77,6 +77,24 @@ const tarotCards = [
         reverseKeywords: ['bad luck', 'lack of control', 'unwelcome change'],
         imagePath: 'wheel-of-fortune',
     },
+    {
+        title: 'Justice',
+        uprightKeywords: ['accountability', 'law', 'truth', 'honesty', 'integrity', 'cause and effect'],
+        reverseKeywords: ['dishonesty', 'misinformation', 'unfairness'],
+        imagePath: 'justice',
+    },
+    {
+        title: 'The Hanged Man',
+        uprightKeywords: ['sacrifice', 'release', 'martyrdom'],
+        reverseKeywords: ['stalling', 'needless sacrifice', 'fear of letting go'],
+        imagePath: 'the-hanged-man',
+    },
+    {
+        title: 'Death',
+        uprightKeywords: ['end of cycle', 'beginnings', 'change'],
+        reverseKeywords: ['fear of change', 'holding on', 'stagnation', 'decay'],
+        imagePath: 'death',
+    },
 ];
 
 const chooseACard = () => {
