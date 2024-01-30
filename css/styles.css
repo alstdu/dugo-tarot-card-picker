@@ -16,11 +16,21 @@ body {
     height: 22em;
 }
 
+#card-title {
+    font-weight: 700;
+    font-size: large;
+}
+
 #card-container > img {
     height: 20em;
     width: auto;
 }
 
+#keyword-container {
+    font-size: medium;
+}
+
 #draw-a-card {
+    font-size: medium;
     margin: 1em;
 }
