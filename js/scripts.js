@@ -164,7 +164,8 @@ const tarotCards = [
         title: 'Two of Wands',
         uprightKeywords: ['planning', 'making decisions', 'leaving home'],
         reverseKeywords: ['fear of change', 'playing safe', 'bad planning'],
-        imagePath: 'page-of-wands',
+        imagePath: 'two-of-wands',
+    },
     },
 ];
 
