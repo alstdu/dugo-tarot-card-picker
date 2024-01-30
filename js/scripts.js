@@ -314,7 +314,7 @@ const tarotCards = [
         title: 'Two of Swords',
         uprightKeywords: ['difficult choices', 'indecision', 'stalemate'],
         reverseKeywords: ['lesser of two evils', 'no right choice', 'confusion'],
-        imagePath: 'queen-of-swords',
+        imagePath: 'two-of-swords',
     },
     {
         title: 'Three of Swords',
