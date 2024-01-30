@@ -348,8 +348,8 @@ const tarotCards = [
     },
     {
         title: 'Eight of Swords',
-        uprightKeywords: [''],
-        reverseKeywords: [''],
+        uprightKeywords: ['imprisonment', 'entrapment', 'self-victimization'],
+        reverseKeywords: ['self acceptance', 'new perspective', 'freedom'],
         imagePath: 'eight-of-swords',
     },
     {
