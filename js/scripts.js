@@ -378,8 +378,8 @@ const tarotCards = [
     },
     {
         title: 'King of Swords',
-        uprightKeywords: [''],
-        reverseKeywords: [''],
+        uprightKeywords: ['morality', 'serious', 'high standards', 'strict'],
+        reverseKeywords: ['irrational', 'dictator', 'oppressive', 'inhumane'],
         imagePath: 'king-of-swords',
     },
     {
