@@ -88,6 +88,18 @@ const tarotCards = [
         reverseKeywords: ['fear of change', 'holding on', 'stagnation', 'decay'],
         imagePath: 'death',
     },
+    {
+        title: 'Temperance',
+        uprightKeywords: ['middle path', 'patience', 'finding meaning'],
+        reverseKeywords: ['extremes', 'excess', 'lack of balance'],
+        imagePath: 'temperance',
+    },
+    {
+        title: 'The Devil',
+        uprightKeywords: ['obsession', 'dependency', 'excess', 'powerlessness'],
+        reverseKeywords: ['independence', 'freedom', 'revelation', 'release', 'reclaiming power'],
+        imagePath: 'the-devil',
+    },
 ];
 
 const chooseACard = () => {
