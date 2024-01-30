@@ -264,20 +264,20 @@ const tarotCards = [
     },
     {
         title: 'Eight of Cups',
-        uprightKeywords: [''],
-        reverseKeywords: [''],
+        uprightKeywords: ['abandonment', 'walking away', 'letting go'],
+        reverseKeywords: ['accepting less', 'avoidance', 'staying in bad situation'],
         imagePath: 'eight-of-cups',
     },
     {
         title: 'Nine of Cups',
-        uprightKeywords: [''],
-        reverseKeywords: [''],
+        uprightKeywords: ['satisfaction', 'emotional stability', 'luxury'],
+        reverseKeywords: ['lack of inner joy', 'smugness', 'dissatisfaction'],
         imagePath: 'nine-of-cups',
     },
     {
         title: 'Ten of Cups',
-        uprightKeywords: [''],
-        reverseKeywords: [''],
+        uprightKeywords: ['inner happiness', 'fulfillment', 'dreams coming true'],
+        reverseKeywords: ['shattered dreams', 'broken family', 'domestic disharmony'],
         imagePath: 'ten-of-cups',
     },
     {
