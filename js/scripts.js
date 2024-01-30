@@ -400,6 +400,78 @@ const tarotCards = [
         reverseKeywords: ['unorganized', 'overwhelmed', 'chaos', 'overextending'],
         imagePath: 'two-of-pentacles',
     },
+    {
+        title: 'Three of Pentacles',
+        uprightKeywords: [''],
+        reverseKeywords: [''],
+        imagePath: 'three-of-pentacles',
+    },
+    {
+        title: 'Four of Pentacles',
+        uprightKeywords: [''],
+        reverseKeywords: [''],
+        imagePath: 'four-of-pentacles',
+    },
+    {
+        title: 'Five of Pentacles',
+        uprightKeywords: [''],
+        reverseKeywords: [''],
+        imagePath: 'five-of-pentacles',
+    },
+    {
+        title: 'Six of Pentacles',
+        uprightKeywords: [''],
+        reverseKeywords: [''],
+        imagePath: 'six-of-pentacles',
+    },
+    {
+        title: 'Seven of Pentacles',
+        uprightKeywords: [''],
+        reverseKeywords: [''],
+        imagePath: 'seven-of-pentacles',
+    },
+    {
+        title: 'Eight of Pentacles',
+        uprightKeywords: [''],
+        reverseKeywords: [''],
+        imagePath: 'eight-of-pentacles',
+    },
+    {
+        title: 'Nine of Pentacles',
+        uprightKeywords: [''],
+        reverseKeywords: [''],
+        imagePath: 'nine-of-pentacles',
+    },
+    {
+        title: 'Ten of Pentacles',
+        uprightKeywords: [''],
+        reverseKeywords: [''],
+        imagePath: 'ten-of-pentacles',
+    },
+    {
+        title: 'Page of Pentacles',
+        uprightKeywords: [''],
+        reverseKeywords: [''],
+        imagePath: 'page-of-pentacles',
+    },
+    {
+        title: 'Knight of Pentacles',
+        uprightKeywords: [''],
+        reverseKeywords: [''],
+        imagePath: 'knight-of-pentacles',
+    },
+    {
+        title: 'King of Pentacles',
+        uprightKeywords: [''],
+        reverseKeywords: [''],
+        imagePath: 'king-of-pentacles',
+    },
+    {
+        title: 'Queen of Pentacles',
+        uprightKeywords: [''],
+        reverseKeywords: [''],
+        imagePath: 'queen-of-pentacles',
+    },
 ];
 
 const chooseACard = () => {
