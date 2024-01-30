@@ -43,3 +43,16 @@ h1, p{
     font-size: medium;
     margin: 1em;
 }
+
+#draw-a-card {
+    padding: .5em;
+    width: 9em;
+    background-color: transparent;
+    color: white;
+    border: 1px plum solid;
+    box-shadow: 1px 1px 5px black;
+}
+
+#draw-a-card:hover, #draw-a-card:focus {
+    background-color: rgb(165, 118, 165);
+}
