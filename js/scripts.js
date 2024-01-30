@@ -159,7 +159,7 @@ drawButton.addEventListener( 'click', () => {
     const keywords = isReversed ? card.reverseKeywords : card.uprightKeywords;
     populateTitle( title );
     populatePath( card.imagePath );
-    populateKeywords( keywords.join( ' ' ) );
+    populateKeywords( keywords );
     setImageIsReversed( isReversed );
 } );
 
@@ -172,7 +172,13 @@ const populatePath = ( path ) => {
 };
 
 const populateKeywords = ( keywords ) => {
-    keywordElm.innerHTML = keywords;
+    keywordElm.innerHTML = '';
+    keywords.forEach( ( keyword ) => {
+        const spanElm = document.createElement( 'span' );
+        keywordElm.appendChild( spanElm );
+        spanElm.classList.add( 'keyword' );
+        spanElm.innerText = keyword;
+    } );
 };
 
 const setImageIsReversed = ( isReversed ) => {
