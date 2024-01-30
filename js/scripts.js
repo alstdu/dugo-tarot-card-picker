@@ -282,14 +282,14 @@ const tarotCards = [
     },
     {
         title: 'Page of Cups',
-        uprightKeywords: [''],
-        reverseKeywords: [''],
+        uprightKeywords: ['dreamer', 'naivete', 'innocence', 'inner child', 'head in the clouds'],
+        reverseKeywords: ['emotional vulnerability', 'immaturity', 'neglecting inner child'],
         imagePath: 'page-of-cups',
     },
     {
         title: 'Knight of Cups',
-        uprightKeywords: [''],
-        reverseKeywords: [''],
+        uprightKeywords: ['following the heart', 'idealist', 'romantic'],
+        reverseKeywords: ['moodiness', 'disappointment', 'avoiding conflict'],
         imagePath: 'knight-of-cups',
     },
     {
