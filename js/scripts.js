@@ -394,6 +394,12 @@ const tarotCards = [
         reverseKeywords: ['missed chances', 'scarcity', 'deficiency'],
         imagePath: 'ace-of-pentacles',
     },
+    {
+        title: 'Two of Pentacles',
+        uprightKeywords: ['balancing decisions', 'priorities', 'adapting to change', 'flexibility'],
+        reverseKeywords: ['unorganized', 'overwhelmed', 'chaos', 'overextending'],
+        imagePath: 'two-of-pentacles',
+    },
 ];
 
 const chooseACard = () => {
