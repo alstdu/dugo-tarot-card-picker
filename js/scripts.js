@@ -372,8 +372,8 @@ const tarotCards = [
     },
     {
         title: 'Knight of Swords',
-        uprightKeywords: [''],
-        reverseKeywords: [''],
+        uprightKeywords: ['action', 'impulsiveness', 'defending beliefs'],
+        reverseKeywords: ['no direction', 'disregard for consequences', 'unpredictability'],
         imagePath: 'knight-of-swords',
     },
     {
