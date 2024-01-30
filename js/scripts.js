@@ -184,6 +184,12 @@ const tarotCards = [
         reverseKeywords: ['cooperation', 'agreements', 'truces'],
         imagePath: 'five-of-wands',
     },
+    {
+        title: 'six of Wands',
+        uprightKeywords: ['victory', 'success', 'triumph'],
+        reverseKeywords: ['excess pride', 'lack of recognition', 'punishment'],
+        imagePath: 'six-of-wands',
+    },
 ];
 
 const chooseACard = () => {
