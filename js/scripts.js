@@ -354,8 +354,8 @@ const tarotCards = [
     },
     {
         title: 'Nine of Swords',
-        uprightKeywords: [''],
-        reverseKeywords: [''],
+        uprightKeywords: ['breaking point', 'despair', 'nightmares', 'isolation'],
+        reverseKeywords: ['learning to cope', 'facing life', 'finding help', 'shame', 'mental health issues'],
         imagePath: 'nine-of-swords',
     },
     {
