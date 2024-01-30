@@ -220,6 +220,18 @@ const tarotCards = [
         reverseKeywords: ['lack of energy', 'lack of passion', 'boredom'],
         imagePath: 'ace-of-wands',
     },
+    {
+        title: 'Ace of Cups',
+        uprightKeywords: ['new feelings', 'spirituality', 'intuition', 'love'],
+        reverseKeywords: ['emptiness', 'emotional loss', 'blocked creativity'],
+        imagePath: 'ace-of-cups',
+    },
+    {
+        title: 'Two of Cups',
+        uprightKeywords: [''],
+        reverseKeywords: [''],
+        imagePath: 'two-of-cups',
+    },
 ];
 
 const chooseACard = () => {
