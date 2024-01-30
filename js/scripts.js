@@ -402,8 +402,8 @@ const tarotCards = [
     },
     {
         title: 'Three of Pentacles',
-        uprightKeywords: [''],
-        reverseKeywords: [''],
+        uprightKeywords: ['teamwork', 'shared goals', 'collaboration'],
+        reverseKeywords: ['lack of cohesion', 'lack of teamwork', 'apathy', 'poor motivation'],
         imagePath: 'three-of-pentacles',
     },
     {
