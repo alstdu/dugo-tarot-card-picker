@@ -1,12 +1,5 @@
 /**
- * Set up some an array of objects that represent cards in a deck.
- *  They should contain a title, an image path, and a list of keyword and reverse keyword strings.
- * Set up a function that chooses a random card from the list
- * Set up functions for interacting with the dom.
- *  Add event listeners to buttons.
- *  Add a function to populate the image src when a card is selected.
  *  Add a function to clear the cards from the screen.
- *  Add functions to change which buttons are shown on screen depending on state.
  */
 
 // TODO: should be in a separate file
