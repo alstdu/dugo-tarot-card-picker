@@ -100,6 +100,42 @@ const tarotCards = [
         reverseKeywords: ['independence', 'freedom', 'revelation', 'release', 'reclaiming power'],
         imagePath: 'the-devil',
     },
+    {
+        title: 'The Tower',
+        uprightKeywords: ['sudden upheaval', 'broken pride', 'disaster', 'breaking down walls'],
+        reverseKeywords: ['averting disaster', 'delaying the inevitable', 'resisting change', 'holding it together'],
+        imagePath: 'the-tower',
+    },
+    {
+        title: 'The Star',
+        uprightKeywords: ['inspiration', 'positivity', 'faith', 'healing', 'rejuvenation'],
+        reverseKeywords: [' despair', 'negativity', 'lack of faith'],
+        imagePath: 'the-star',
+    },
+    {
+        title: 'The Moon',
+        uprightKeywords: ['unconscious', 'illusions', 'intuition', 'complexity', 'secrets'],
+        reverseKeywords: ['deception', 'anxiety', 'misunderstanding', 'misinterpretation'],
+        imagePath: 'the-moon',
+    },
+    {
+        title: 'The Sun',
+        uprightKeywords: ['joy', 'success', 'celebration', 'positivity'],
+        reverseKeywords: ['negativity', 'depression', 'sadness', 'failure'],
+        imagePath: 'the-sun',
+    },
+    {
+        title: 'Judgement',
+        uprightKeywords: ['reflection', 'reckoning', 'awakening'],
+        reverseKeywords: ['lack of self-awareness', 'failure to learn lessons', 'self-loathing'],
+        imagePath: 'judgement',
+    },
+    {
+        title: 'The World',
+        uprightKeywords: ['fulfillment', 'harmony', 'completion', 'sense of belonging'],
+        reverseKeywords: ['lack of achievement', 'feeling incomplete', 'emptiness'],
+        imagePath: 'the-world',
+    },
 ];
 
 const chooseACard = () => {
