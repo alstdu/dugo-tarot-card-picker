@@ -408,8 +408,8 @@ const tarotCards = [
     },
     {
         title: 'Four of Pentacles',
-        uprightKeywords: [''],
-        reverseKeywords: [''],
+        uprightKeywords: ['possessiveness', 'insecurity', 'hoarding', 'frugality', 'boundaries'],
+        reverseKeywords: ['generosity', 'giving', 'spending', 'openness'],
         imagePath: 'four-of-pentacles',
     },
     {
