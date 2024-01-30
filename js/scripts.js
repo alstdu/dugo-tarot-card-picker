@@ -294,14 +294,14 @@ const tarotCards = [
     },
     {
         title: 'King of Cups',
-        uprightKeywords: [''],
-        reverseKeywords: [''],
+        uprightKeywords: ['diplomatic', 'balance between head and heart', 'devoted, advisor'],
+        reverseKeywords: ['anxious', 'cold', 'repressed', 'withdrawn', 'manipulative', 'selfish'],
         imagePath: 'king-of-cups',
     },
     {
         title: 'Queen of Cups',
-        uprightKeywords: [''],
-        reverseKeywords: [''],
+        uprightKeywords: ['compassion', 'warmth', 'kindness'],
+        reverseKeywords: ['giving too much', 'overly-sensitive', 'needy'],
         imagePath: 'queen-of-cups',
     },
 ];
