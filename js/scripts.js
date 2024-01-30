@@ -366,8 +366,8 @@ const tarotCards = [
     },
     {
         title: 'Page of Swords',
-        uprightKeywords: [''],
-        reverseKeywords: [''],
+        uprightKeywords: ['curiosity', 'restlessness', 'mental energy'],
+        reverseKeywords: ['deception', 'manipulation', 'all talk'],
         imagePath: 'page-of-swords',
     },
     {
