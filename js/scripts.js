@@ -360,8 +360,8 @@ const tarotCards = [
     },
     {
         title: 'Ten of Swords',
-        uprightKeywords: [''],
-        reverseKeywords: [''],
+        uprightKeywords: ['exhaustion', 'dead end', 'victimization', 'betrayal'],
+        reverseKeywords: ['survival', 'improvement', 'healing', 'lessons learned'],
         imagePath: 'ten-of-swords',
     },
     {
