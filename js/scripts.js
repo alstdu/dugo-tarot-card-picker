@@ -388,6 +388,12 @@ const tarotCards = [
         reverseKeywords: ['manipulative', 'harsh', 'bitter'],
         imagePath: 'queen-of-swords',
     },
+    {
+        title: 'Ace of Pentacles',
+        uprightKeywords: ['new opportunities', 'resources', 'abundance', 'manifestation'],
+        reverseKeywords: ['missed chances', 'scarcity', 'deficiency'],
+        imagePath: 'ace-of-pentacles',
+    },
 ];
 
 const chooseACard = () => {
