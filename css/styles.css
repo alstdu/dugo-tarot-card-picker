@@ -77,6 +77,6 @@ h1, p {
     box-shadow: 1px 1px 5px black;
 }
 
-#draw-a-card:hover, #draw-a-card:focus {
+#draw-a-card:hover, #draw-a-card:focus-visible {
     background-color: rgb(165, 118, 165);
 }
