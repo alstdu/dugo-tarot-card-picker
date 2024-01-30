@@ -14,32 +14,68 @@ const tarotCards = [
     {
         title: 'The Fool',
         uprightKeywords: ['beginnings', 'innocence', 'idealism', 'adventure'],
-        reverseKeywords: [],
+        reverseKeywords: ['reckless', 'careless', 'distracted', 'foolish'],
         imagePath: 'the-fool',
     },
     {
         title: 'The Magician',
         uprightKeywords: ['desire', 'willpower', 'ability', 'concentration'],
-        reverseKeywords: [],
+        reverseKeywords: ['manipulation', 'cunning', 'trickery', 'illusion'],
         imagePath: 'the-magician',
     },
     {
         title: 'The High Priestess',
         uprightKeywords: ['intuition', 'higher power', 'mystery', 'unconscious'],
-        reverseKeywords: [],
+        reverseKeywords: ['repressed intuition', 'hidden motives', 'superficiality', 'confusion', 'cognitive dissonance'],
         imagePath: 'the-high-priestess',
     },
     {
         title: 'The Empress',
         uprightKeywords: ['beauty', 'nurturing', 'femininity', 'nature', 'abundance'],
-        reverseKeywords: [],
+        reverseKeywords: ['negligence', 'smothering', 'lack of growth', 'lack of progress'],
         imagePath: 'the-empress',
     },
     {
         title: 'The Emperor',
         uprightKeywords: ['authority', 'control', 'protection', 'structure'],
-        reverseKeywords: [],
+        reverseKeywords: ['domineering', 'rigid', 'stubborn', 'lack of discipline', 'recklessness'],
         imagePath: 'the-emperor',
+    },
+    {
+        title: 'The Heirophant',
+        uprightKeywords: ['tradition', 'social groups', 'knowledge', 'beliefs'],
+        reverseKeywords: ['rebellion', 'unconventionality', 'non-conformity', 'new methods', 'ignorance'],
+        imagePath: 'the-heirophant',
+    },
+    {
+        title: 'The Lovers',
+        uprightKeywords: ['love', 'unions', 'partnerships', 'relationships', 'choices', 'romance', 'balance', 'unity'],
+        reverseKeywords: ['disharmony', 'imbalance', 'conflict', 'detachment'],
+        imagePath: 'the-lovers',
+    },
+    {
+        title: 'The Chariot',
+        uprightKeywords: ['success', 'ambition', 'determination', 'focus'],
+        reverseKeywords: ['forceful', 'no direction', 'no control', 'powerless', 'aggression', 'obstacles'],
+        imagePath: 'the-chariot',
+    },
+    {
+        title: 'Strength',
+        uprightKeywords: ['courage', 'bravery', 'confidence', 'compassion', 'self-confidence', 'inner power'],
+        reverseKeywords: ['self-doubt', 'weakness', 'low confidence'],
+        imagePath: 'strength',
+    },
+    {
+        title: 'The Hermit',
+        uprightKeywords: ['introspection', 'contemplation', 'withdrawal', 'solitude', 'search for self'],
+        reverseKeywords: ['loneliness', 'isolation', 'recluse', 'rejection'],
+        imagePath: 'the-hermit',
+    },
+    {
+        title: 'Wheel of Fortune',
+        uprightKeywords: ['change', 'cycles', 'fate', 'decisive moments', 'luck'],
+        reverseKeywords: ['bad luck', 'lack of control', 'unwelcome change'],
+        imagePath: 'wheel-of-fortune',
     },
 ];
 
