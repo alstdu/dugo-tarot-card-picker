@@ -384,8 +384,8 @@ const tarotCards = [
     },
     {
         title: 'Queen of Swords',
-        uprightKeywords: [''],
-        reverseKeywords: [''],
+        uprightKeywords: ['independent', 'principled', 'fair', 'constructive criticism'],
+        reverseKeywords: ['manipulative', 'harsh', 'bitter'],
         imagePath: 'queen-of-swords',
     },
 ];
