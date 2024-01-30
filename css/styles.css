@@ -3,16 +3,25 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    margin: 0;
-    width: 100vw;
+    width: 100%;
     min-height: 100vh;
+    margin: 0;
     background-color: rgb(92, 61, 108);
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: large;
     color: white;
     text-align: center;
 }
 
-h1, p{
+h1 {
     margin-bottom: 0;
+}
+
+p {
+    margin: 1em;
+}
+
+h1, p {
     padding: 0;
 }
 
@@ -21,7 +30,7 @@ h1, p{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 22em;
+    height: min-content;
     color: white;
 }
 
@@ -31,26 +40,31 @@ h1, p{
 }
 
 #card-container > img {
-    height: 20em;
+    height: 30em;
     width: auto;
 }
 
 #keyword-container {
-    font-size: large;
-    max-width: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
     margin-top: 1em;
+    padding: 1em;
+    font-size: x-large;
 }
 
 .keyword {
     margin: .5em;
     padding: .4em;
-    border-radius: 15%;
+    border-radius: 15em;
     background-color: rgb(26, 24, 26);
     color: rgb(210, 207, 183);
 }
 
 #draw-a-card {
-    font-size: medium;
+    font-size: large;
     margin: 1em;
 }
 
