@@ -304,6 +304,90 @@ const tarotCards = [
         reverseKeywords: ['giving too much', 'overly-sensitive', 'needy'],
         imagePath: 'queen-of-cups',
     },
+    {
+        title: 'Ace of Swords',
+        uprightKeywords: ['breakthrough', 'new idea', 'concentration', 'vision'],
+        reverseKeywords: ['miscommunication', 'hostility', 'arguments', 'destruction'],
+        imagePath: 'ace-of-swords',
+    },
+    {
+        title: 'Two of Swords',
+        uprightKeywords: ['compassion', 'warmth', 'kindness'],
+        reverseKeywords: ['giving too much', 'overly-sensitive', 'needy'],
+        imagePath: 'queen-of-swords',
+    },
+    {
+        title: 'Three of Swords',
+        uprightKeywords: [''],
+        reverseKeywords: [''],
+        imagePath: 'queen-of-swords',
+    },
+    {
+        title: 'Four of Swords',
+        uprightKeywords: [''],
+        reverseKeywords: [''],
+        imagePath: 'queen-of-swords',
+    },
+    {
+        title: 'Five of Swords',
+        uprightKeywords: [''],
+        reverseKeywords: [''],
+        imagePath: 'queen-of-swords',
+    },
+    {
+        title: 'Six of Swords',
+        uprightKeywords: [''],
+        reverseKeywords: [''],
+        imagePath: 'queen-of-swords',
+    },
+    {
+        title: 'Seven of Swords',
+        uprightKeywords: [''],
+        reverseKeywords: [''],
+        imagePath: 'queen-of-swords',
+    },
+    {
+        title: 'Eight of Swords',
+        uprightKeywords: [''],
+        reverseKeywords: [''],
+        imagePath: 'queen-of-swords',
+    },
+    {
+        title: 'Queen of Swords',
+        uprightKeywords: [''],
+        reverseKeywords: [''],
+        imagePath: 'queen-of-swords',
+    },
+    {
+        title: 'Queen of Swords',
+        uprightKeywords: [''],
+        reverseKeywords: [''],
+        imagePath: 'queen-of-swords',
+    },
+    {
+        title: 'Queen of Swords',
+        uprightKeywords: [''],
+        reverseKeywords: [''],
+        imagePath: 'queen-of-swords',
+    },
+    {
+        title: 'Queen of Swords',
+        uprightKeywords: [''],
+        reverseKeywords: [''],
+        imagePath: 'queen-of-swords',
+    },
+    {
+        title: 'Queen of Swords',
+        uprightKeywords: [''],
+        reverseKeywords: [''],
+        imagePath: 'queen-of-swords',
+    },
+    {
+        title: 'Queen of Swords',
+        uprightKeywords: [''],
+        reverseKeywords: [''],
+        imagePath: 'queen-of-swords',
+    },
 ];
 
 const chooseACard = () => {
