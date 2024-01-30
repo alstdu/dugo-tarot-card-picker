@@ -166,6 +166,23 @@ const tarotCards = [
         reverseKeywords: ['fear of change', 'playing safe', 'bad planning'],
         imagePath: 'two-of-wands',
     },
+    {
+        title: 'Three of Wands',
+        uprightKeywords: ['looking ahead', 'expansion', 'rapid growth'],
+        reverseKeywords: ['obstacles', 'delays', 'frustration'],
+        imagePath: 'three-of-wands',
+    },
+    {
+        title: 'Four of Wands',
+        uprightKeywords: ['community', 'home', 'celebration', 'belonging'],
+        reverseKeywords: ['lack of support', 'instability', 'home conflict', 'feeling unwelcome'],
+        imagePath: 'four-of-wands',
+    },
+    {
+        title: 'Five of Wands',
+        uprightKeywords: ['competition', 'arguments', 'aggression', 'tension'],
+        reverseKeywords: ['cooperation', 'agreements', 'truces'],
+        imagePath: 'five-of-wands',
     },
 ];
 
