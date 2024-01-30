@@ -232,6 +232,12 @@ const tarotCards = [
         reverseKeywords: ['division', 'imbalance', 'tension', 'bad communication'],
         imagePath: 'two-of-cups',
     },
+    {
+        title: 'Three of Cups',
+        uprightKeywords: ['celebrations', 'group events', 'social events', 'friendship'],
+        reverseKeywords: ['gossip', 'scandal', 'excess', 'isolation'],
+        imagePath: 'three-of-cups',
+    },
 ];
 
 const chooseACard = () => {
