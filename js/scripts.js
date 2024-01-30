@@ -228,8 +228,8 @@ const tarotCards = [
     },
     {
         title: 'Two of Cups',
-        uprightKeywords: [''],
-        reverseKeywords: [''],
+        uprightKeywords: ['unity', 'partnership', 'connection', 'mutual respect'],
+        reverseKeywords: ['division', 'imbalance', 'tension', 'bad communication'],
         imagePath: 'two-of-cups',
     },
 ];
