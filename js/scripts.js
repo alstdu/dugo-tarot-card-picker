@@ -336,14 +336,14 @@ const tarotCards = [
     },
     {
         title: 'Six of Swords',
-        uprightKeywords: [''],
-        reverseKeywords: [''],
+        uprightKeywords: ['departure', 'leaving behind', 'distance', 'accepting lessons'],
+        reverseKeywords: ['stuck in past', 'returning to trouble', 'running away from problems'],
         imagePath: 'six-of-swords',
     },
     {
         title: 'Seven of Swords',
-        uprightKeywords: [''],
-        reverseKeywords: [''],
+        uprightKeywords: ['deception', 'trickery', 'tactics and strategy'],
+        reverseKeywords: ['coming clean', 'rethinking approach'],
         imagePath: 'seven-of-swords',
     },
     {
