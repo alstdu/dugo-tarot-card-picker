@@ -420,20 +420,20 @@ const tarotCards = [
     },
     {
         title: 'Six of Pentacles',
-        uprightKeywords: [''],
-        reverseKeywords: [''],
+        uprightKeywords: ['generosity', 'charity', 'giving and receiving', 'gratitude'],
+        reverseKeywords: ['power dynamics', 'abuse of generosity', 'strings attached gifts'],
         imagePath: 'six-of-pentacles',
     },
     {
         title: 'Seven of Pentacles',
-        uprightKeywords: [''],
-        reverseKeywords: [''],
+        uprightKeywords: ['harvest', 'rewards', 'results', 'growth'],
+        reverseKeywords: ['unfinished work', 'procrastination', 'low effort', 'waste'],
         imagePath: 'seven-of-pentacles',
     },
     {
         title: 'Eight of Pentacles',
-        uprightKeywords: [''],
-        reverseKeywords: [''],
+        uprightKeywords: ['craftsmanship', 'quality', 'high standards', 'expertise'],
+        reverseKeywords: ['rushed job', 'bad reputation', 'lack of motivation'],
         imagePath: 'eight-of-pentacles',
     },
     {
