@@ -414,8 +414,8 @@ const tarotCards = [
     },
     {
         title: 'Five of Pentacles',
-        uprightKeywords: [''],
-        reverseKeywords: [''],
+        uprightKeywords: ['unemployment', 'alienation', 'disgrace'],
+        reverseKeywords: ['positive changes', 'recovery from loss', 'forgiveness'],
         imagePath: 'five-of-pentacles',
     },
     {
