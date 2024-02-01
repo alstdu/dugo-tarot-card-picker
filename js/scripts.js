@@ -504,7 +504,7 @@ const populateTitle = ( title ) => {
 };
 
 const populatePath = ( path ) => {
-    cardImageElm.src = '../assets/cards/' + path + '.png';
+    cardImageElm.src = 'assets/cards/' + path + '.png';
 };
 
 const populateKeywords = ( keywords ) => {
