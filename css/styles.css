@@ -50,8 +50,7 @@ h1, p {
     justify-content: center;
     align-items: center;
     max-width: 100%;
-    margin-top: 1em;
-    padding: 1em;
+    padding: .25em;
     font-size: x-large;
 }
 
@@ -65,7 +64,7 @@ h1, p {
 
 #draw-a-card {
     font-size: large;
-    margin: 1em;
+    margin: .25em;
 }
 
 #draw-a-card {
