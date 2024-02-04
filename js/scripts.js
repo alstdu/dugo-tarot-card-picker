@@ -488,7 +488,7 @@ const titleElm = document.querySelector( '#card-title' );
 const cardImageElm = document.querySelector( '#card' );
 const keywordElm = document.querySelector( '#keyword-container' );
 
-drawButton.addEventListener( 'click', () => {
+const onClickDraw = () => {
     const card = chooseACard();
     const isReversed = decideIfReversed();
     const title = isReversed ? card.title + ' Reversed' : card.title;
@@ -497,7 +497,9 @@ drawButton.addEventListener( 'click', () => {
     populatePath( card.imagePath );
     populateKeywords( keywords );
     setImageIsReversed( isReversed );
-} );
+};
+
+drawButton.addEventListener( 'click', onClickDraw );
 
 const populateTitle = ( title ) => {
     titleElm.innerHTML = title;
@@ -521,3 +523,5 @@ const setImageIsReversed = ( isReversed ) => {
     const transform = isReversed ? 'rotate(180deg)' : 'rotate(0deg)';
     cardImageElm.style.transform = transform;
 };
+
+onClickDraw();
