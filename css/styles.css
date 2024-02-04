@@ -1,3 +1,7 @@
+:root {
+    --card-detail: rgb(210, 207, 183);
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -31,7 +35,7 @@ h1, p {
     align-items: center;
     justify-content: center;
     height: min-content;
-    color: white;
+    color: var(--card-detail);
 }
 
 #card-title {
@@ -42,6 +46,7 @@ h1, p {
 #card-container > img {
     height: 25em;
     width: auto;
+    border: 0.1em solid var(--card-detail);
 }
 
 #keyword-container {
@@ -56,8 +61,8 @@ h1, p {
 
 .keyword {
     margin: .5em;
-    padding: .4em;
-    border-radius: 15em;
+    padding: .4em 1em;
+    border-radius: .5em;
     background-color: rgb(26, 24, 26);
     color: rgb(210, 207, 183);
 }
@@ -71,8 +76,8 @@ h1, p {
     padding: .5em;
     width: 9em;
     background-color: transparent;
-    color: white;
-    border: 1px plum solid;
+    color: var(--card-detail);
+    border: 0.1em plum solid;
     box-shadow: 1px 1px 5px black;
 }
 
